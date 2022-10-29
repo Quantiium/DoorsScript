@@ -87,7 +87,7 @@ Creator.runEntity(entity)
 end)
 
 
-preview:NewKeybind("Summon A-60", Enum.KeyCode.X, function()
+preview:NewKeybind("Summon A-60 (Buggy Might Kill)", Enum.KeyCode.X, function()
 	 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
           -- Create entity
           local entity = Creator.createEntity({
@@ -112,7 +112,7 @@ preview:NewKeybind("Summon A-60", Enum.KeyCode.X, function()
                   50,
               },
 			  	    Jumpscare = {
-        true, -- Enabled ('false' if you don't want jumpscare)
+        false, -- Enabled ('false' if you don't want jumpscare)
         {
             Image1 = "rbxassetid://11394048190", -- Image1 url
             Image2 = "rbxassetid://11394048190", -- Image2 url
@@ -295,7 +295,7 @@ getgenv().death = false
                   50,
               },
 			  	    Jumpscare = {
-        true, -- Enabled ('false' if you don't want jumpscare)
+        false, -- Enabled ('false' if you don't want jumpscare)
         {
             Image1 = "rbxassetid://11394048190", -- Image1 url
             Image2 = "rbxassetid://11395251069", -- Image2 url
