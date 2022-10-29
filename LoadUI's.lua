@@ -5,7 +5,7 @@ local preview = Forums:NewSection("No kill GUI")
 local preview1 = Forums:NewSection("Kill / Normal GUI")
 
 preview:NewButton("Execute No-Kill", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Quantiium/DoorsScript/main/NoKillUI.lua"))()
     end)
 
 preview:NewButton("GUI without entities that can kill", function()
@@ -15,7 +15,7 @@ preview:NewButton("GUI without entities that can kill", function()
     --Kill Gui
 
 preview1:NewButton("Execute Kill", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Quantiium/DoorsScript/main/KillUI.lua"))()
     end)
 
 preview1:NewButton("Normal GUI that entities kill", function()
