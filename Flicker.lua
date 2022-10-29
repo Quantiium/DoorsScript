@@ -5,7 +5,7 @@ local entity = Creator.createEntity({
     CustomName = "Template Entity", -- Custom name of your entity
     Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Rush.rbxm?raw=true", -- Can be GitHub file or rbxassetid
     Speed = 0, -- Percentage, 100 = default Rush speed
-    DelayTime = 2, -- Time before starting cycles (seconds)
+    DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = false,
     BreakLights = false,
