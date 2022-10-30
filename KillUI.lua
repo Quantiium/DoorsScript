@@ -570,14 +570,19 @@ print("Nothing here, just information :)")
 end)
 
 
-preview2:NewButton("Update, V2.3 Red-Roomify", function()
+preview2:NewButton("Update, V2.4 Packed Up", function()
 print("Nothing here, just information :)")
 end)
 
 
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ChronoMagical", Text = "Executed / New Update V2.3!"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ChronoMagical", Text = "Executed / New Update V2.4!"})
 
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ChronoMagical", Text = "If gui doesn't pop up, your executor is trahs! :P"})
+
+
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Important!!", Text = "V3 Gui coming soon!"})
 
 
 
